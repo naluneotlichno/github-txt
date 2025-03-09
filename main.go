@@ -2,20 +2,19 @@ package main
 
 import (
 	"fmt"
+	"os"
+
 	"githubtxt/file"
 	"githubtxt/log"
 	"githubtxt/repo"
 	"githubtxt/utils"
-	"os"
 )
 
 func main() {
-	startTime := utils.StartTimer()
+	mainTimer := utils.StartTimer()
 
-	// Создаём лог-файл
 	logFile := log.CreateLogFile()
 	defer logFile.Close()
-
 	multiWriter := log.SetupLogger(logFile)
 
 	repoURL := utils.GetRepoURL(multiWriter)
@@ -25,7 +24,7 @@ func main() {
 	}
 
 	repoName := utils.GetRepoNameFromURL(repoURL)
-	savePath := utils.GetSavePath(repoName)
+	savePath := utils.GetSavePath(repoName)	
 	repoPath := utils.GetRepoPath(savePath)
 
 	if err := os.RemoveAll(repoPath); err != nil {
@@ -34,13 +33,19 @@ func main() {
 	}
 
 	// Клонирование репозитория
+	cloneTimer := utils.StartTimer()
 	repo.CloneRepo(repoURL, repoPath, multiWriter)
+	cloneTimer.PrintElapsedTime("клонирования", multiWriter)
 
-	// Обработка файлов
+	// Обработка файлов репозитория
+	processTimer := utils.StartTimer()
 	file.ProcessFiles(repoPath, savePath, multiWriter)
+	processTimer.PrintElapsedTime("обработки файлов", multiWriter)
 
 	// Удаление репозитория после обработки
+	cleanupTimer := utils.StartTimer()
 	repo.CleanupRepo(repoPath, multiWriter)
+	cleanupTimer.PrintElapsedTime("удаления репозитория", multiWriter)
 
-	utils.PrintExecutionTime(startTime, multiWriter)
+	mainTimer.PrintElapsedTime("всей программы", multiWriter)
 }

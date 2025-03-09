@@ -1,24 +1,13 @@
 package utils
 
 import (
-	"bufio"
+	"bufio"         // чтение файлов и ввода потрочно
 	"fmt"
-	"io"
-	"os"
-	"path/filepath"
+	"io"            // для работы с потоками данных
+	"os"            // для работы с операционной системой
+	"path/filepath" // для работы с путями
 	"strings"
-	"time"
 )
-
-// StartTimer засчитывает старт программы
-func StartTimer() time.Time {
-	return time.Now()
-}
-
-// PrintExecutionTime выводит общее время выполнения
-func PrintExecutionTime(start time.Time, log io.Writer) {
-	fmt.Fprintf(log, "⏳ Общее время выполнения: %v\n", time.Since(start))
-}
 
 // GetRepoURL запрашивает у пользователя URL репозитория
 func GetRepoURL(log io.Writer) string {
@@ -51,5 +40,3 @@ func GetSavePath(repoName string) string {
 func GetRepoPath(savePath string) string {
 	return filepath.Join(savePath, "repo")
 }
-
-
