@@ -1,9 +1,6 @@
 package main
 
 import (
-	"fmt"
-	"os"
-
 	"githubtxt/file"
 	"githubtxt/log"
 	"githubtxt/repo"
@@ -17,35 +14,29 @@ func main() {
 	defer logFile.Close()
 	multiWriter := log.SetupLogger(logFile)
 
-	repoURL := utils.GetRepoURL(multiWriter)
-	if repoURL == "" {
-		fmt.Fprintln(multiWriter, "👋 Завершение работы программы.")
-		return
-	}
+	var repoURL, savePath, repoPath string
 
-	repoName := utils.GetRepoNameFromURL(repoURL)
-	savePath := utils.GetSavePath(repoName)	
-	repoPath := utils.GetRepoPath(savePath)
+	// 🔄 Повторяем ввод репозиторя в случае ошибки
+	utils.HandleErrorRetry(func() error {
+		var err error
+		repoURL, savePath, repoPath, err = utils.InitRepo(multiWriter)
+		return err
+	}, "Ошибка инициализации репозитория", multiWriter, true)
 
-	if err := os.RemoveAll(repoPath); err != nil {
-		fmt.Fprintln(multiWriter, "Ошибка удаления папки репозитория:", err)
-		return
-	}
+	// 🔄 Клонирование репозитория
+	utils.RunTimedAction(func() error {
+		return repo.CloneRepo(repoURL, repoPath, multiWriter)
+	}, "Клонирование репозитория", multiWriter, true)
 
-	// Клонирование репозитория
-	cloneTimer := utils.StartTimer()
-	repo.CloneRepo(repoURL, repoPath, multiWriter)
-	cloneTimer.PrintElapsedTime("клонирования", multiWriter)
+	// 🔄 Обработка файлов
+	utils.RunTimedAction(func() error {
+		return file.ProcessFiles(repoPath, savePath, multiWriter)
+	}, "Обработка файлов", multiWriter, true)
 
-	// Обработка файлов репозитория
-	processTimer := utils.StartTimer()
-	file.ProcessFiles(repoPath, savePath, multiWriter)
-	processTimer.PrintElapsedTime("обработки файлов", multiWriter)
-
-	// Удаление репозитория после обработки
-	cleanupTimer := utils.StartTimer()
-	repo.CleanupRepo(repoPath, multiWriter)
-	cleanupTimer.PrintElapsedTime("удаления репозитория", multiWriter)
+	// 🔄 Удаление репозитория
+	utils.RunTimedAction(func() error {
+		return repo.CleanupRepo(repoPath, multiWriter)
+	}, "Удаление репозитория", multiWriter, true)
 
 	mainTimer.PrintElapsedTime("всей программы", multiWriter)
 }

@@ -1,11 +1,11 @@
 package utils
 
 import (
-	"bufio"         // чтение файлов и ввода потрочно
+	"bufio"
 	"fmt"
-	"io"            // для работы с потоками данных
-	"os"            // для работы с операционной системой
-	"path/filepath" // для работы с путями
+	"io"            
+	"os"            
+	"path/filepath" 
 	"strings"
 )
 
@@ -39,4 +39,43 @@ func GetSavePath(repoName string) string {
 // GetRepoPath возвращает путь к клонированному репозиторию
 func GetRepoPath(savePath string) string {
 	return filepath.Join(savePath, "repo")
+}
+
+// InitRepo выполняет начальную настройку репозитория
+func InitRepo(log io.Writer) (repoURL, savePath, repoPath string, err error) {
+	repoURL = GetRepoURL(log)
+	if repoURL == "" {
+		fmt.Fprintln(log, "ВведитеURL GitHub-репозитория.")
+		return "", "", "", nil
+	}
+
+	repoName := GetRepoNameFromURL(repoURL)
+	savePath = GetSavePath(repoName)
+	repoPath = GetRepoPath(savePath)
+
+	if err := os.RemoveAll(repoPath); err != nil {
+		return "", "", "", fmt.Errorf("не удалось удалить папку репозиторияЖ %w", err)
+	}
+
+	return repoURL, savePath, repoPath, nil
+}
+
+// HandleErrorRetry обрабатывает ошибку и повторяет попытку повторно
+func HandleErrorRetry(action func() error, msg string, log io.Writer, retry bool) {
+	for {
+		err := action()
+		if err == nil {
+			break
+		}
+
+		fmt.Fprintln(log, "❌", msg, ":", err)
+
+		if retry {
+			fmt.Fprintln(log, "🔄 Повторяем попытку...")
+			continue
+		} else {
+			fmt.Fprintln(log, "💥 Критическая ошибка. Завершение работы.")
+			os.Exit(1)
+		}
+	}
 }
