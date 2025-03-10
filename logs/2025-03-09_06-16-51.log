@@ -1,218 +1,0 @@
-
-Введите URL GitHub-репозитория (или нажмите Enter для выхода): Cloning into 'C:\Users\user\Desktop\gopad\repo'...
-Updating files:   7% (2/26)Updating files:  11% (3/26)Updating files:  15% (4/26)Updating files:  19% (5/26)Updating files:  23% (6/26)Updating files:  26% (7/26)Updating files:  30% (8/26)Updating files:  34% (9/26)Updating files:  38% (10/26)Updating files:  42% (11/26)Updating files:  46% (12/26)Updating files:  50% (13/26)Updating files:  53% (14/26)Updating files:  57% (15/26)Updating files:  61% (16/26)Updating files:  65% (17/26)Updating files:  69% (18/26)Updating files:  73% (19/26)Updating files:  76% (20/26)Updating files:  80% (21/26)Updating files:  84% (22/26)Updating files:  88% (23/26)Updating files:  92% (24/26)Updating files:  96% (25/26)Updating files: 100% (26/26)Updating files: 100% (26/26), done.
-🕒 Время клонирования: 3.1676349s
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\gopad\repo\scheduler.db
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\gopad\repo\web\favicon.ico
-🕒 Время объединения файлов: 166.1132ms
-📂 Папка репозитория успешно удалена.
-✅ Репозиторий обработан, TXT сохранён в: C:\Users\user\Desktop\gopad\gopad.txt
-⏳ Общее время выполнения: 15.2581741s
-
-Введите URL GitHub-репозитория (или нажмите Enter для выхода): Cloning into 'C:\Users\user\Desktop\vscode\repo'...
-Updating files:   0% (2/8049)Updating files:   1% (81/8049)Updating files:   2% (161/8049)Updating files:   3% (242/8049)Updating files:   4% (322/8049)Updating files:   5% (403/8049)Updating files:   6% (483/8049)Updating files:   7% (564/8049)Updating files:   8% (644/8049)Updating files:   9% (725/8049)Updating files:   9% (768/8049)Updating files:  10% (805/8049)Updating files:  11% (886/8049)Updating files:  12% (966/8049)Updating files:  13% (1047/8049)Updating files:  14% (1127/8049)Updating files:  15% (1208/8049)Updating files:  16% (1288/8049)Updating files:  17% (1369/8049)Updating files:  18% (1449/8049)Updating files:  19% (1530/8049)Updating files:  20% (1610/8049)Updating files:  21% (1691/8049)Updating files:  22% (1771/8049)Updating files:  22% (1796/8049)Updating files:  23% (1852/8049)Updating files:  24% (1932/8049)Updating files:  25% (2013/8049)Updating files:  26% (2093/8049)Updating files:  27% (2174/8049)Updating files:  28% (2254/8049)Updating files:  29% (2335/8049)Updating files:  30% (2415/8049)Updating files:  31% (2496/8049)Updating files:  32% (2576/8049)Updating files:  33% (2657/8049)Updating files:  33% (2705/8049)Updating files:  34% (2737/8049)Updating files:  35% (2818/8049)Updating files:  36% (2898/8049)Updating files:  37% (2979/8049)Updating files:  38% (3059/8049)Updating files:  39% (3140/8049)Updating files:  40% (3220/8049)Updating files:  41% (3301/8049)Updating files:  42% (3381/8049)Updating files:  43% (3462/8049)Updating files:  44% (3542/8049)Updating files:  45% (3623/8049)Updating files:  45% (3648/8049)Updating files:  46% (3703/8049)Updating files:  47% (3784/8049)Updating files:  48% (3864/8049)Updating files:  49% (3945/8049)Updating files:  50% (4025/8049)Updating files:  51% (4105/8049)Updating files:  52% (4186/8049)Updating files:  53% (4266/8049)Updating files:  54% (4347/8049)Updating files:  55% (4427/8049)Updating files:  55% (4489/8049)Updating files:  56% (4508/8049)Updating files:  57% (4588/8049)Updating files:  58% (4669/8049)Updating files:  59% (4749/8049)Updating files:  60% (4830/8049)Updating files:  61% (4910/8049)Updating files:  62% (4991/8049)Updating files:  63% (5071/8049)Updating files:  64% (5152/8049)Updating files:  65% (5232/8049)Updating files:  66% (5313/8049)Updating files:  67% (5393/8049)Updating files:  67% (5394/8049)Updating files:  68% (5474/8049)Updating files:  69% (5554/8049)Updating files:  70% (5635/8049)Updating files:  71% (5715/8049)Updating files:  72% (5796/8049)Updating files:  73% (5876/8049)Updating files:  74% (5957/8049)Updating files:  75% (6037/8049)Updating files:  76% (6118/8049)Updating files:  77% (6198/8049)Updating files:  77% (6243/8049)Updating files:  78% (6279/8049)Updating files:  79% (6359/8049)Updating files:  80% (6440/8049)Updating files:  81% (6520/8049)Updating files:  82% (6601/8049)Updating files:  83% (6681/8049)Updating files:  84% (6762/8049)Updating files:  85% (6842/8049)Updating files:  86% (6923/8049)Updating files:  87% (7003/8049)Updating files:  88% (7084/8049)Updating files:  88% (7123/8049)Updating files:  89% (7164/8049)Updating files:  90% (7245/8049)Updating files:  91% (7325/8049)Updating files:  92% (7406/8049)Updating files:  93% (7486/8049)Updating files:  94% (7567/8049)Updating files:  95% (7647/8049)Updating files:  96% (7728/8049)Updating files:  97% (7808/8049)Updating files:  98% (7889/8049)Updating files:  98% (7938/8049)Updating files:  99% (7969/8049)Updating files: 100% (8049/8049)Updating files: 100% (8049/8049), done.
-🕒 Время клонирования: 25.4067469s
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\.vscode\extensions\vscode-selfhost-test-provider\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\lib\watch\watcher.exe
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\Default.hu.isl
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\Default.ko.isl
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.hu.isl
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.de.isl
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.es.isl
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.ko.isl
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.fr.isl
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.ja.isl
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.pt-br.isl
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.ru.isl
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.tr.isl
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.zh-cn.isl
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.zh-tw.isl
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\win32\vcruntime140.dll
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\build\win32\inno_updater.exe
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\configuration-editing\images\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\css-language-features\icons\css.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\debug-auto-launch\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\debug-server-ready\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\emmet\images\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\extension-editing\images\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\git\resources\icons\git.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\git-base\resources\icons\git.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\github\images\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\github-authentication\images\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\github-authentication\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\github-authentication\media\favicon.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\grunt\images\grunt.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\gulp\images\gulp.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\html-language-features\icons\html.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\ipynb\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\jake\images\cowboy_hat.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\json-language-features\icons\json.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\markdown-language-features\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\markdown-math\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\media-preview\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\merge-conflict\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\microsoft-authentication\media\favicon.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\microsoft-authentication\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\notebook-renderers\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\npm\images\npm_icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\php-language-features\icons\logo.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\references-view\media\demo.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\references-view\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\search-result\images\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\simple-browser\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\terminal-suggest\src\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\theme-seti\icons\seti.woff
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\theme-seti\icons\seti-circular-128x128.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\tunnel-forwarding\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\typescript-language-features\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\vscode-api-tests\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\vscode-api-tests\testWorkspace\image%.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\vscode-api-tests\testWorkspace\image.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\vscode-api-tests\testWorkspace\image%02.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\vscode-colorize-perf-tests\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\vscode-api-tests\testWorkspace\sub\image.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\vscode-colorize-tests\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\vscode-colorize-tests\producticons\ElegantIcons.woff
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\extensions\vscode-test-resolver\media\icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\bat.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\config.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\go.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\css.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\bower.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\c.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\code.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\csharp.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\cpp.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\default.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\html.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\jade.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\java.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\javascript.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\ruby.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\less.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\sql.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\php.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\powershell.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\python.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\react.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\sass.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\json.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\shell.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\markdown.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\typescript.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\vue.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\xml.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\server\code-512.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\bower.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\c.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\darwin\yaml.icns
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\server\favicon.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\linux\code.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\code_150x150.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\code.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\go.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\code_70x70.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\cpp.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\config.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\csharp.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-big-175.bmp
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\css.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\server\code-192.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-big-250.bmp
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-big-100.bmp
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-big-125.bmp
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-small-125.bmp
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\default.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-big-200.bmp
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-small-200.bmp
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\html.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-small-100.bmp
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-small-150.bmp
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-big-150.bmp
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\javascript.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-small-225.bmp
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\markdown.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-small-250.bmp
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\php.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\jade.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-small-175.bmp
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\react.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\less.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-big-225.bmp
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\java.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\python.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\powershell.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\json.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\xml.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\sass.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\shell.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\sql.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\typescript.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\vue.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\ruby.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\resources\win32\yaml.ico
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\base\browser\ui\codicons\codicon\codicon.ttf
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\base\test\node\zip\fixtures\extract.zip
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\editor\contrib\colorPicker\browser\images\opacity-background.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\break.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\chatEditModifiedFile.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\error.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\progress.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\diffLineInserted.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\clear.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\format.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\diffLineDeleted.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\quickFixes.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\responseReceived4.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\requestSent.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\taskCompleted.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\responseReceived1.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\responseReceived2.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\responseReceived3.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\diffLineModified.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\save.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\warning.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\foldedAreas.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\taskFailed.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\voiceRecordingStarted.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\terminalBell.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\voiceRecordingStopped.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\success.mp3
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\platform\files\test\node\fixtures\service\binary.txt
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\browser\parts\editor\media\back-tb.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\browser\parts\editor\media\forward-tb.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\continue-tb.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\pause-tb.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\stepinto-tb.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\run-with-debugging-tb.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\stepout-tb.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\stop-tb.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\stepover-tb.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\restart-tb.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\extensions\browser\media\theme-icon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\externalTerminal\node\iTermHelper.scpt
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\externalTerminal\node\TerminalHelper.scpt
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\welcomeGettingStarted\common\media\dark.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\welcomeGettingStarted\common\media\dark-hc.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\welcomeGettingStarted\common\media\light.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\welcomeGettingStarted\common\media\light-hc.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\welcomeGettingStarted\common\media\notebookThemes\default.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\welcomeGettingStarted\common\media\notebookThemes\colab.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\welcomeGettingStarted\common\media\notebookThemes\jupyter.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\extensionManagement\common\media\defaultIcon.png
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\search\test\node\fixtures\binary.wuff
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some.cp1252.txt
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some.pdf
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some.png.txt
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some.qwoff.txt
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some.shiftjis.txt
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some_gbk.txt
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some.shiftjis.1.txt
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\utf16_be_nobom.txt
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\utf16_le_nobom.txt
-🕒 Время объединения файлов: 48.8567277s
-📂 Папка репозитория успешно удалена.
-✅ Репозиторий обработан, TXT сохранён в: C:\Users\user\Desktop\vscode\vscode.txt
-⏳ Общее время выполнения: 2m2.9526106s
-
-Введите URL GitHub-репозитория (или нажмите Enter для выхода): 

@@ -1,215 +1,0 @@
-
-Введите URL GitHub-репозитория (или нажмите Enter для выхода): Cloning into 'C:\Users\user\Desktop\vscode\repo'...
-Updating files:  12% (1043/8049)Updating files:  13% (1047/8049)Updating files:  14% (1127/8049)Updating files:  15% (1208/8049)Updating files:  16% (1288/8049)Updating files:  17% (1369/8049)Updating files:  18% (1449/8049)Updating files:  19% (1530/8049)Updating files:  20% (1610/8049)Updating files:  21% (1691/8049)Updating files:  22% (1771/8049)Updating files:  22% (1804/8049)Updating files:  23% (1852/8049)Updating files:  24% (1932/8049)Updating files:  25% (2013/8049)Updating files:  26% (2093/8049)Updating files:  27% (2174/8049)Updating files:  28% (2254/8049)Updating files:  29% (2335/8049)Updating files:  30% (2415/8049)Updating files:  31% (2496/8049)Updating files:  32% (2576/8049)Updating files:  33% (2657/8049)Updating files:  34% (2737/8049)Updating files:  34% (2766/8049)Updating files:  35% (2818/8049)Updating files:  36% (2898/8049)Updating files:  37% (2979/8049)Updating files:  38% (3059/8049)Updating files:  39% (3140/8049)Updating files:  40% (3220/8049)Updating files:  41% (3301/8049)Updating files:  42% (3381/8049)Updating files:  43% (3462/8049)Updating files:  44% (3542/8049)Updating files:  45% (3623/8049)Updating files:  45% (3692/8049)Updating files:  46% (3703/8049)Updating files:  47% (3784/8049)Updating files:  48% (3864/8049)Updating files:  49% (3945/8049)Updating files:  50% (4025/8049)Updating files:  51% (4105/8049)Updating files:  52% (4186/8049)Updating files:  53% (4266/8049)Updating files:  54% (4347/8049)Updating files:  55% (4427/8049)Updating files:  55% (4481/8049)Updating files:  56% (4508/8049)Updating files:  57% (4588/8049)Updating files:  58% (4669/8049)Updating files:  59% (4749/8049)Updating files:  60% (4830/8049)Updating files:  61% (4910/8049)Updating files:  62% (4991/8049)Updating files:  63% (5071/8049)Updating files:  64% (5152/8049)Updating files:  65% (5232/8049)Updating files:  66% (5313/8049)Updating files:  66% (5351/8049)Updating files:  67% (5393/8049)Updating files:  68% (5474/8049)Updating files:  69% (5554/8049)Updating files:  70% (5635/8049)Updating files:  71% (5715/8049)Updating files:  72% (5796/8049)Updating files:  73% (5876/8049)Updating files:  74% (5957/8049)Updating files:  75% (6037/8049)Updating files:  76% (6118/8049)Updating files:  77% (6198/8049)Updating files:  78% (6279/8049)Updating files:  79% (6359/8049)Updating files:  79% (6409/8049)Updating files:  80% (6440/8049)Updating files:  81% (6520/8049)Updating files:  82% (6601/8049)Updating files:  83% (6681/8049)Updating files:  84% (6762/8049)Updating files:  85% (6842/8049)Updating files:  86% (6923/8049)Updating files:  87% (7003/8049)Updating files:  88% (7084/8049)Updating files:  89% (7164/8049)Updating files:  89% (7231/8049)Updating files:  90% (7245/8049)Updating files:  91% (7325/8049)Updating files:  92% (7406/8049)Updating files:  93% (7486/8049)Updating files:  94% (7567/8049)Updating files:  95% (7647/8049)Updating files:  96% (7728/8049)Updating files:  97% (7808/8049)Updating files:  98% (7889/8049)Updating files:  99% (7969/8049)Updating files: 100% (8049/8049)Updating files: 100% (8049/8049), done.
-🕒 Время клонирования: 1m37.3561181s
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\.vscode\extensions\vscode-selfhost-test-provider\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\build\lib\watch\watcher.exe
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\build\win32\inno_updater.exe
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\build\win32\vcruntime140.dll
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\Default.hu.isl
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\Default.ko.isl
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.de.isl
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.es.isl
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.ja.isl
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.ko.isl
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.ru.isl
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.pt-br.isl
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.hu.isl
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.fr.isl
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.zh-tw.isl
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.tr.isl
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\build\win32\i18n\messages.zh-cn.isl
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\configuration-editing\images\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\css-language-features\icons\css.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\debug-auto-launch\media\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\debug-server-ready\media\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\emmet\images\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\extension-editing\images\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\git\resources\icons\git.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\git-base\resources\icons\git.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\github\images\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\github-authentication\images\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\github-authentication\media\favicon.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\github-authentication\media\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\grunt\images\grunt.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\gulp\images\gulp.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\html-language-features\icons\html.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\ipynb\media\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\jake\images\cowboy_hat.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\json-language-features\icons\json.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\markdown-language-features\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\markdown-math\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\media-preview\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\merge-conflict\media\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\microsoft-authentication\media\favicon.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\microsoft-authentication\media\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\notebook-renderers\media\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\npm\images\npm_icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\php-language-features\icons\logo.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\references-view\media\demo.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\references-view\media\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\search-result\images\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\simple-browser\media\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\terminal-suggest\src\media\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\theme-seti\icons\seti-circular-128x128.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\tunnel-forwarding\media\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\typescript-language-features\media\icon.png
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\extensions\theme-seti\icons\seti.woff
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\vscode-api-tests\media\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\vscode-api-tests\testWorkspace\image%.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\vscode-api-tests\testWorkspace\image%02.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\vscode-api-tests\testWorkspace\image.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\vscode-api-tests\testWorkspace\sub\image.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\vscode-colorize-perf-tests\media\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\vscode-colorize-tests\media\icon.png
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\extensions\vscode-colorize-tests\producticons\ElegantIcons.woff
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\extensions\vscode-test-resolver\media\icon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\linux\code.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\server\code-192.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\server\code-512.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\server\favicon.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\bower.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\c.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\code.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\code_150x150.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\code_70x70.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\config.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\cpp.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\csharp.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\css.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\default.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\go.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\html.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-big-100.bmp
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-big-125.bmp
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-big-150.bmp
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-big-175.bmp
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-big-200.bmp
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-big-225.bmp
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-big-250.bmp
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-small-100.bmp
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-small-125.bmp
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-small-150.bmp
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-small-175.bmp
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-small-200.bmp
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-small-225.bmp
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\inno-small-250.bmp
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\jade.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\java.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\javascript.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\json.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\less.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\markdown.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\php.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\powershell.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\python.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\react.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\ruby.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\sass.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\shell.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\sql.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\typescript.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\vue.ico
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\xml.ico
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\bower.icns
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\resources\win32\yaml.ico
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\bat.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\config.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\c.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\code.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\cpp.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\csharp.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\default.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\css.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\go.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\jade.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\html.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\java.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\javascript.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\json.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\less.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\php.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\markdown.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\python.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\react.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\powershell.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\ruby.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\sass.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\shell.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\sql.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\vue.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\typescript.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\xml.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\resources\darwin\yaml.icns
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\base\browser\ui\codicons\codicon\codicon.ttf
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\base\test\node\zip\fixtures\extract.zip
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\editor\contrib\colorPicker\browser\images\opacity-background.png
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\break.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\chatEditModifiedFile.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\clear.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\diffLineInserted.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\diffLineDeleted.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\diffLineModified.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\foldedAreas.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\progress.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\format.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\error.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\quickFixes.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\requestSent.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\responseReceived1.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\responseReceived2.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\responseReceived3.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\responseReceived4.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\success.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\save.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\taskCompleted.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\terminalBell.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\taskFailed.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\voiceRecordingStarted.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\voiceRecordingStopped.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\accessibilitySignal\browser\media\warning.mp3
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\files\test\node\fixtures\service\binary.txt
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\platform\files\test\node\fixtures\service\some_utf16le.css
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\browser\parts\editor\media\back-tb.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\browser\parts\editor\media\forward-tb.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\continue-tb.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\pause-tb.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\restart-tb.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\run-with-debugging-tb.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\stepinto-tb.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\stepout-tb.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\stepover-tb.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\debug\browser\media\stop-tb.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\extensions\browser\media\theme-icon.png
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\externalTerminal\node\TerminalHelper.scpt
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\externalTerminal\node\iTermHelper.scpt
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\welcomeGettingStarted\common\media\dark-hc.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\welcomeGettingStarted\common\media\dark.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\welcomeGettingStarted\common\media\light-hc.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\welcomeGettingStarted\common\media\light.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\welcomeGettingStarted\common\media\notebookThemes\colab.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\welcomeGettingStarted\common\media\notebookThemes\default.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\contrib\welcomeGettingStarted\common\media\notebookThemes\jupyter.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\extensionManagement\common\media\defaultIcon.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some.json.png
-🚫 Пропущен бинарный файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some.xml.png
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\search\test\node\fixtures\binary.wuff
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\search\test\node\fixtures\some_utf16le.css
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\search\test\node\fixtures\some_utf16be.css
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some.pdf
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some.png.txt
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some.cp1252.txt
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some.qwoff.txt
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some.shiftjis.txt
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some_utf16be.css
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some.shiftjis.1.txt
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some_gbk.txt
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\utf16_le_nobom.txt
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\utf16_be_nobom.txt
-🚫 Пропущен не текстовый файл: C:\Users\user\Desktop\vscode\repo\src\vs\workbench\services\textfile\test\node\encoding\fixtures\some_utf16le.css
-🕒 Время объединения файлов: 37.1905768s
-📂 Папка репозитория успешно удалена.
-✅ Репозиторий обработан, TXT сохранён в: C:\Users\user\Desktop\vscode\vscode.txt
-⏳ Общее время выполнения: 2m23.1237084s
-
-Введите URL GitHub-репозитория (или нажмите Enter для выхода): 

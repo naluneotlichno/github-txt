@@ -1,16 +1,0 @@
-
-Введите URL GitHub-репозитория (или нажмите Enter для выхода): Cloning into 'C:\Users\user\Desktop\compose\repo'...
-remote: Not Found
-fatal: repository 'https://github.com/docker/composehttps://github.com/docker/compose/' not found
-Ошибка клонирования репозитория: exit status 128
-
-Введите URL GitHub-репозитория (или нажмите Enter для выхода): Cloning into 'C:\Users\user\Desktop\gopad\repo'...
-Updating files:   7% (2/26)Updating files:  11% (3/26)Updating files:  15% (4/26)Updating files:  19% (5/26)Updating files:  23% (6/26)Updating files:  26% (7/26)Updating files:  30% (8/26)Updating files:  34% (9/26)Updating files:  38% (10/26)Updating files:  42% (11/26)Updating files:  46% (12/26)Updating files:  50% (13/26)Updating files:  53% (14/26)Updating files:  57% (15/26)Updating files:  61% (16/26)Updating files:  65% (17/26)Updating files:  69% (18/26)Updating files:  73% (19/26)Updating files:  76% (20/26)Updating files:  80% (21/26)Updating files:  84% (22/26)Updating files:  88% (23/26)Updating files:  92% (24/26)Updating files:  96% (25/26)Updating files: 100% (26/26)Updating files: 100% (26/26), done.
-🕒 Время клонирования: 2.7430652s
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\gopad\repo\scheduler.db
-🚫 Пропущен файл с неизвестной кодировкой: C:\Users\user\Desktop\gopad\repo\web\favicon.ico
-🕒 Время объединения файлов: 180.8291ms
-📂 Папка репозитория успешно удалена.
-⏳ Общее время выполнения: 33.3514589s
-
-Введите URL GitHub-репозитория (или нажмите Enter для выхода): 👋 Завершение работы программы.
