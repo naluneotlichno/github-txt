@@ -11,7 +11,12 @@ import (
 
 // ProcessFiles записывает все файлы с текском(txt) в один txt файл
 func ProcessFiles(repoPath, outputFilePath string, log io.Writer) error {
-	fmt.Fprintln(log, "📂 Обрабатываем файлы по пакетам...")
+	fmt.Fprintln(log, "📂 Обрабатываем файлы...")
+
+	// Если outputFilePath — это папка, добавляем имя файла
+	if fileInfo, err := os.Stat(outputFilePath); err == nil && fileInfo.IsDir() {
+		outputFilePath = filepath.Join(outputFilePath, "output.txt")
+	}
 
 	// Создаем файл, в который будем записывать все данные
 	outputFile, err := os.Create(outputFilePath)
