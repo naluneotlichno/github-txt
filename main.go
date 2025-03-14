@@ -16,7 +16,7 @@ func main() {
 
 	var repoURL, savePath, repoPath string
 
-	// 🔄 Повторяем ввод репозиторя в случае ошибки
+	// 🔄 Настройка репозитория
 	utils.HandleErrorRetry(func() error {
 		var err error
 		repoURL, savePath, repoPath, err = utils.InitRepo(multiWriter)
@@ -35,7 +35,7 @@ func main() {
 
 	// 🔄 Удаление репозитория
 	utils.RunTimedAction(func() error {
-		return repo.CleanupRepo(repoPath, multiWriter)
+		return repo.CleanRepo(repoPath, multiWriter)
 	}, "Удаление репозитория", multiWriter, true)
 
 	mainTimer.PrintElapsedTime("всей программы", multiWriter)

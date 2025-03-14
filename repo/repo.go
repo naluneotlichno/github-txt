@@ -21,8 +21,8 @@ func CloneRepo(repoURL, repoPath string, log io.Writer) error {
 	return nil
 }
 
-// CleanupRepo удаляет клонированный репозиторий после обработки
-func CleanupRepo(repoPath string, log io.Writer) error {
+// CleanRepo удаляет клонированный репозиторий после обработки
+func CleanRepo(repoPath string, log io.Writer) error {
 	if err := os.RemoveAll(repoPath); err != nil {
 		fmt.Fprintln(log, "Ошибка удаления репозитория:", err)
 		return err

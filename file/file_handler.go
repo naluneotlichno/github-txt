@@ -3,111 +3,72 @@ package file
 import (
 	"fmt"
 	"io"
+	"io/fs"
 	"os"
 	"path/filepath"
-	"strings"
-	"sync"
 	"unicode/utf8"
 )
 
-// ProcessFiles обрабатывает файлы по пакетам и возвращает ошибку при сбоях
-func ProcessFiles(repoPath, outputDir string, log io.Writer) error {
+// ProcessFiles записывает все файлы с текском(txt) в один txt файл
+func ProcessFiles(repoPath, outputFilePath string, log io.Writer) error {
 	fmt.Fprintln(log, "📂 Обрабатываем файлы по пакетам...")
 
-	packages := make(map[string]*os.File)
-	var mu sync.Mutex
-	var wg sync.WaitGroup
-	files := make(chan string, 100)
-	errors := make(chan error, 10) // Канал для ошибок
+	// Создаем файл, в который будем записывать все данные
+	outputFile, err := os.Create(outputFilePath)
+	if err != nil {
+		fmt.Fprintln(log, "❌ Ошибка создания выходного файла:", err)
+		return err
+	}
+	defer outputFile.Close()
 
-	// Обход файлов
-	err := filepath.Walk(repoPath, func(path string, info os.FileInfo, err error) error {
+	// Делаем обход всех файлов в репозитории через рекурсивную функцию
+	err = filepath.WalkDir(repoPath, func(path string, d fs.DirEntry, err error) error {
 		if err != nil {
-			fmt.Fprintln(log, "❌ Ошибка обхода файлов:", err)
+			fmt.Fprint(log, "❌ Ошибка обхода файлов:", err)
 			return err
 		}
-		if strings.Contains(path, ".git") {
-			return filepath.SkipDir
+
+		// Пропускаем мусорные папки
+		if d.IsDir() {
+			skipFolder := map[string]bool{
+				".git":    true,
+				".vscode": true,
+				".idea":   true,
+				".cache":  true,
+				".env":    true,
+			}
+			if skipFolder[filepath.Base(path)] {
+				fmt.Fprintln(log, "📂 Пропускаем папку:", path)
+				return filepath.SkipDir
+			}
 		}
-		if !info.IsDir() {
-			files <- path
+
+		// Обрабатываем файл если он не папка
+		if !d.IsDir() {
+			content, err := os.ReadFile(path)
+			if err != nil {
+				fmt.Fprintln(log, "❌ Ошибка чтения файла:", path, err)
+				return nil
+			}
+
+			// Пропускаем файл если он не UTF-8
+			if !utf8.Valid(content) {
+				fmt.Fprintln(log, "📖 Файл не содержит кодировки UTF-8:", path)
+				return nil
+			}
+
+			// Записываем содержимое файла в общий TXT файл
+			_, err = outputFile.WriteString(fmt.Sprintf("\nFile: %s\n\n%s\n", path, string(content)))
+			if err != nil {
+				fmt.Fprintln(log, "❌ Ошибка записи файла:", outputFilePath, err)
+			}
 		}
 		return nil
 	})
 
 	if err != nil {
-		fmt.Fprintln(log, "❌ Ошибка обхода файлов:", err)
+		fmt.Fprintln(log, "⚠️ Обнаружены ошибки при обработке файлов:", err)
 		return err
-	}
-
-	// Воркеры для обработки файлов
-	for i := 0; i < 10; i++ {
-		wg.Add(1)
-		go func() {
-			defer wg.Done()
-			for path := range files {
-				content, err := os.ReadFile(path)
-				if err != nil {
-					fmt.Fprintln(log, "❌ Ошибка чтения файла:", path, err)
-					errors <- fmt.Errorf("ошибка чтения файла %s: %w", path, err)
-					continue
-				}
-
-				if !utf8.Valid(content) {
-					fmt.Fprintln(log, "🚫 Пропущен бинарный файл:", path)
-					continue
-				}
-
-				packageName := filepath.Base(filepath.Dir(path))
-				outputFilePath := filepath.Join(outputDir, "repo_"+packageName+".txt")
-
-				mu.Lock()
-				if _, exists := packages[packageName]; !exists {
-					f, err := os.Create(outputFilePath)
-					if err != nil {
-						fmt.Fprintln(log, "❌ Ошибка создания файла пакета:", outputFilePath, err)
-						errors <- fmt.Errorf("ошибка создания файла %s: %w", outputFilePath, err)
-						mu.Unlock()
-						continue
-					}
-					packages[packageName] = f
-				}
-				f := packages[packageName]
-				mu.Unlock()
-
-				mu.Lock()
-				_, err = f.WriteString(fmt.Sprintf("\nFile: %s\n\n%s\n", path, string(content)))
-				if err != nil {
-					fmt.Fprintln(log, "❌ Ошибка записи в файл:", outputFilePath, err)
-					errors <- fmt.Errorf("ошибка записи в файл %s: %w", outputFilePath, err)
-				}
-				mu.Unlock()
-			}
-		}()
-	}
-
-	close(files)
-	wg.Wait()
-	close(errors) // Закрываем канал ошибок после завершения всех воркеров
-
-	// Проверяем, были ли ошибки в обработке файлов
-	var finalErr error
-	for err := range errors {
-		if finalErr == nil {
-			finalErr = err // Запоминаем первую ошибку
-		} else {
-			finalErr = fmt.Errorf("%v; %w", finalErr, err) // Объединяем ошибки
-		}
-	}
-
-	// Закрываем все файлы
-	for _, f := range packages {
-		_ = f.Close()
-	}
-
-	if finalErr != nil {
-		fmt.Fprintln(log, "⚠️ Обнаружены ошибки при обработке файлов:", finalErr)
-		return finalErr
 	}
 
 	fmt.Fprintln(log, "✅ Обработка файлов завершена!")
